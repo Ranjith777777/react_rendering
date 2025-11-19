@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    background-color: coral;
+    padding: 30px;
+    text-align: center;
+}
+.imgkgf {
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    display: block;
+}
+.para{
+    text-align: center;
+    margin-top: 20px;
+}
+.number{
+    text-align: center;
+    margin-top: 20px;
+}
+.teranty img {
+    align-items: center;
+    margin-top: 20px;
+    width: 200px;
+
+}
+.kgfim{
+   align-items: center; 
+   width: 200px;
+   
+    
+
+
+}
+    
