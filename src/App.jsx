@@ -1,17 +1,22 @@
-import String from "./component/String"
-import './App.css'
-import Number from "./component/Number"
-import Ternayoperator from "./component/Ternaryoperator"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./Navbar";
+import Homepage from "./pages/Homepage";
+import Number from "./pages/Number";
+import String from "./pages/String";
+import Ternaryoperator from "./pages/Ternaryoperator";
 
-const APP=()=>{
-  return(
-   
-    <>
-    <String/>
-    <Number/>
-    <Ternayoperator/>
-    </>
-  )
+const App = () => {
+  return (
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/number" element={<Number />} />
+        <Route path="/string" element={<String />} />
+        <Route path="/ternary" element={<Ternaryoperator />} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
 
-}
-export default APP
+export default App;

@@ -29,15 +29,38 @@
     width: 200px;
 
 }
-.kgfim{
-   align-items: center; 
-   width: 200px;
-   
-    
 
-
-}
 .temple{
     text-align: center;
 }
-    
+.multiple{
+    text-align: center;
+    background-color: brown;
+    padding: auto;
+}  
+.optional{
+    text-align: center;
+    background-color: rgb(104, 6, 104);
+    padding: 20px;
+}
+
+.parent{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rrr img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rocky img{
+    align-items: center;
+}
+.teranty img{
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+}
